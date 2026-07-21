@@ -32,7 +32,7 @@ scripts/                Helpers de build + publish
 
 ## Crear una miniapp desde ella
 
-Usa el flujo **"Create miniapp" de Backstage** (recomendado — además la registra en el catálogo), o **Use this template** en GitHub. Los placeholders como `__MINIAPP_ID__` se rellenan por miniapp.
+Usa el flujo **"Create miniapp" de Backstage** (recomendado — además la registra en el catálogo), o **Use this template** en GitHub. Los placeholders como `cards_wallet` se rellenan por miniapp.
 
 ## Desarrollo
 

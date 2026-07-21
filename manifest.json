@@ -1,5 +1,5 @@
 {
-  "id": "__MINIAPP_ID__",
+  "id": "cards_wallet",
   "version": "0.1.0",
   "entry": "./Entry",
   "shared": [

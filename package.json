@@ -1,11 +1,11 @@
 {
-  "name": "@dentvega/miniapp-__MINIAPP_ID__",
+  "name": "@dentvega/miniapp-cards_wallet",
   "version": "0.1.0",
   "private": true,
-  "description": "__MINIAPP_NAME__ — miniapp federada (Re.Pack remote). Generada desde miniapp-template.",
+  "description": "CardsWallet — miniapp federada (Re.Pack remote). Generada desde miniapp-template.",
   "scripts": {
     "start": "react-native webpack-start --port 9000",
-    "bundle:android": "react-native webpack-bundle --platform android --entry-file src/Entry.tsx --bundle-output build/__MINIAPP_ID__.container.js.bundle --dev false",
+    "bundle:android": "react-native webpack-bundle --platform android --entry-file src/Entry.tsx --bundle-output build/cards_wallet.container.js.bundle --dev false",
     "typecheck": "tsc --noEmit",
     "test": "jest"
   },

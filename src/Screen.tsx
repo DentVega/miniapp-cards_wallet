@@ -12,7 +12,7 @@ export function Screen(): React.JSX.Element {
     <SafeAreaView style={[styles.fill, {backgroundColor: theme.colors.background}]}>
       <Box padding="xl" gap="lg" style={styles.fill}>
         <AppText variant="heading" accessibilityRole="header">
-          __MINIAPP_NAME__
+          CardsWallet
         </AppText>
         <Card>
           <AppText variant="body" color="textMuted">

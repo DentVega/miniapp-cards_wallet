@@ -6,7 +6,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 /**
- * Re.Pack config for the `__MINIAPP_ID__` federated remote.
+ * Re.Pack config for the `cards_wallet` federated remote.
  * Exposes "./Entry"; the host resolves + mounts it on demand.
  * `shared` singletons must stay compatible with what the host provides.
  */
@@ -33,8 +33,8 @@ export default Repack.defineRspackConfig({
   plugins: [
     new Repack.RepackPlugin(),
     new Repack.plugins.ModuleFederationPluginV2({
-      name: '__MINIAPP_ID__',
-      filename: '__MINIAPP_ID__.container.js.bundle',
+      name: 'cards_wallet',
+      filename: 'cards_wallet.container.js.bundle',
       exposes: {
         './Entry': './src/Entry.tsx',
       },
