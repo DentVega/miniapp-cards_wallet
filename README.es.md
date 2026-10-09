@@ -47,7 +47,7 @@ pnpm start        # dev server del remote en :9000
 
 ## Contrato y seguridad
 
-`Entry` recibe `MiniappEntryProps` de `@org/miniapp-contract`: **capabilities acotadas, nunca credenciales crudas**. Si falta el permiso requerido → pantalla de "acceso no autorizado".
+`Entry` recibe `MiniappEntryProps` de `@dentvega/miniapp-contract`: **capabilities acotadas, nunca credenciales crudas**. Si falta el permiso requerido → pantalla de "acceso no autorizado".
 
 ## Requisitos
 
