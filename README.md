@@ -47,7 +47,7 @@ pnpm start        # remote dev server on :9000
 
 ## Contract & security
 
-`Entry` receives `MiniappEntryProps` from `@org/miniapp-contract`: **scoped capabilities, never raw credentials**. If the required permission is missing → an "unauthorized access" screen.
+`Entry` receives `MiniappEntryProps` from `@dentvega/miniapp-contract`: **scoped capabilities, never raw credentials**. If the required permission is missing → an "unauthorized access" screen.
 
 ## Requirements
 
