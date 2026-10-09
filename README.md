@@ -51,7 +51,7 @@ pnpm start        # remote dev server on :9000
 
 ## Requirements
 
-Node 20+, pnpm or npm. Access to **GitHub Packages** for `@org/miniapp-contract` and `@org/ui-kit` (`.npmrc` uses `${GITHUB_TOKEN}` with `read:packages` — never a hardcoded token).
+Node 20+, pnpm or npm. `@dentvega/miniapp-contract` and `@dentvega/ui-kit` install from the **public npm registry** — no token or registry config needed.
 
 ## Related repos
 
